@@ -1,10 +1,10 @@
 import React from "react";
-import propTypes from 'prop-types';
-import MainMenu from '../components/MainMenu'
-import BodyMenu from '../components/BodyMenu'
-import Footer from '../components/FooterMenue'
-import img_lights_wide from '../assets/img/img_lights_wide.jpg'
-import styel from '../styles/styel.css'
+
+import MainMenu from '../components/MainMenu';
+import BodyMenu from '../components/BodyMenu';
+import Footer from '../components/FooterMenue';
+import img_lights_wide from '../assets/img/img_lights_wide.jpg';
+import styel from '../styles/styel.css';
 
 
 
@@ -23,8 +23,8 @@ class Homepage extends React.Component {
             <Footer/>
             </>
         )
-    }
-}
+    };
+};
 
 Homepage.propTypes = {
 
