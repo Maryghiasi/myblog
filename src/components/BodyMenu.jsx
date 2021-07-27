@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -6,10 +7,10 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import als from '../assets/img/OIP.jpg';
-import PropTypes from 'prop-types';
-import bodyStyle from '../styles/bodyStyle.css';
 
+import {PropTypes} from 'prop-types';
+
+import bodyStyle from '../styles/bodyStyle.css';
 import news1 from '../assets/img/news1.jpg';
 import news2 from '../assets/img/news2.jpg';
 import news3 from '../assets/img/news3.jpg'
@@ -49,9 +50,7 @@ class Mycards extends React.Component {
                             {title}
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p" >
-                                {content}
-
-
+                          {content}
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -63,7 +62,7 @@ class Mycards extends React.Component {
 
                 </CardActions>
             </Card>
-        );
+        )
     };
 };
 
@@ -119,7 +118,7 @@ class BodyMenu extends React.Component {
                 </div>
 
             </div>
-        );
+        )
     };
 
 };
