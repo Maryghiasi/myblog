@@ -1,3 +1,3 @@
 # This is My first React experience
 
-for more information refer to [https://instagram.com](my instagram)
+for more information refer to [my instagram](https://instagram.com)
