@@ -13,7 +13,8 @@ import {PropTypes} from 'prop-types';
 import bodyStyle from '../styles/bodyStyle.css';
 import news1 from '../assets/img/news1.jpg';
 import news2 from '../assets/img/news2.jpg';
-import news3 from '../assets/img/news3.jpg'
+import news3 from '../assets/img/news3.jpg';
+import fonts from '../fonts/BYekan.ttf'
 
 class Mycards extends React.Component {
 
@@ -83,8 +84,7 @@ class BodyMenu extends React.Component {
     render() {
 
         const {
-            homeLabel3,
-            homeLabel4
+  
 
         } = this.props;
         return (
@@ -123,14 +123,8 @@ class BodyMenu extends React.Component {
 
 };
 
-BodyMenu.propTypes = {
-    homeLabel3: PropTypes.string,
-    homeLabel4: PropTypes.string
-}
-BodyMenu.defaultProps = {
-    homeLabel3: 'عنوان',
-    homeLabel4: 'ادامه مطالب'
-}
+
+
 export default BodyMenu;
 
 
