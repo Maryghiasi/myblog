@@ -2,14 +2,10 @@
 .title{
     flex-grow:  1
 }
-
-
-.left2right{
-    direction: ltr;
-
-}
-
 .right2left{
     direction: rtl;
     text-align: right;
 }
+
+
+

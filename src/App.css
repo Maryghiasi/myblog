@@ -29,7 +29,7 @@ background: #3E5BA5;
   right: 185px;
   top: 29px;
   
-  font-family: Work Sans;
+  font-family: yekan;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -47,6 +47,17 @@ background: #3E5BA5;
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* .{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
 
 .App-link {
   color: #61dafb;
