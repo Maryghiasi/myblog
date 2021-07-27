@@ -1,0 +1,26 @@
+
+
+.mainfooter:after{
+        content: "";
+        display: table;
+        clear: both;
+}
+
+.sotoonfooter{
+    float: right;
+    width: 33.33333%;
+    padding: 10px;
+    padding-right: 80px;
+    height: 200px;
+    background-color: rgb(190, 184, 184);
+ 
+}
+@media screen and (max-width: 800px) {
+    .sotoonfooter {
+      width: 100%;
+    }
+}
+.right2left{
+    direction: rtl;
+    text-align: right;
+}

@@ -1,0 +1,21 @@
+.mycard{
+    max-width: 350px;
+    
+
+}
+.media{
+    height: 140px
+}
+
+.mainbody{
+    width: 100%;
+}
+
+.sotoon{
+    height: 400px;
+    width: 33.33333%;
+    display: inline-block;
+    /* background-color: blue; */
+    padding-right: 90px;
+    padding-top: 50px;
+}

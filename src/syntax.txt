@@ -1,0 +1,21 @@
+
+// Component
+class EsmeCopm extends React.Component {
+    render(){
+
+        //var
+        return(
+            //all things here will be exported
+        )
+    }
+}
+
+
+//function
+Esmefunction = (arg1,arg2,...) => {
+    //it will do whatever we code here
+}
+
+
+
+()=> this.Esmefunction(arg1,arg2,...)
